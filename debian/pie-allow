@@ -1,0 +1,4 @@
+foreign-arch src/liblzma/simple/sparc\.c The SPARC BCJ filter, for compressing SPARC executables. liblzma builds it on every architecture.
+foreign-arch src/liblzma/simple/riscv\.c The RISC-V BCJ filter, for compressing RISC-V executables. liblzma builds it on every architecture.
+foreign-arch src/liblzma/simple/powerpc\.c The PowerPC BCJ filter, for compressing PowerPC executables. liblzma builds it on every architecture.
+foreign-arch src/liblzma/simple/ia64\.c The IA-64 BCJ filter, for compressing IA-64 executables. liblzma builds it on every architecture.

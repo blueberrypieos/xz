@@ -1,0 +1,27 @@
+Source: xz
+Section: utils
+Priority: optional
+Maintainer: Maxwell <maxwell@blueberrypieos.com>
+Build-Depends: pietoolchain (>= 0.1.0), cmake, ninja-build
+Standards-Version: 4.7.3
+Homepage: https://github.com/tukaani-project/xz
+Vcs-Git: https://github.com/blueberrypieos/xz.git -b blueberry-pie-os/latest
+Vcs-Browser: https://github.com/blueberrypieos/xz
+Rules-Requires-Root: no
+
+Package: xz
+Architecture: darwin-arm64
+Essential: yes
+Priority: required
+Depends: libsystem
+Description: liblzma and the xz tools
+ XZ Utils provides the liblzma compression library and the xz command,
+ with unxz, xzcat, lzma, unlzma and lzcat aliases.
+
+Package: xz-dev
+Section: libdevel
+Priority: optional
+Architecture: darwin-arm64
+Depends: xz (= ${binary:Version})
+Description: liblzma development files
+ Headers for building against liblzma; the library link is in xz.
