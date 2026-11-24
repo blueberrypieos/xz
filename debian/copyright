@@ -206,6 +206,11 @@ Files: debian/*
 Copyright: 2026 The Blueberry Pie OS Authors
 License: BSD-2-Clause
 
+Files: debian/patches/0001-scripts-only-when-installed.patch
+Copyright: The XZ Utils authors and contributors
+ 2026 The Blueberry Pie OS Authors
+License: 0BSD
+
 License: 0BSD
  Permission to use, copy, modify, and/or distribute this
  software for any purpose with or without fee is hereby granted.
